@@ -1,0 +1,421 @@
+@charset "utf-8";
+/*==================Reset_start===================*/
+*{margin: 0; padding: 0;}
+html,body{font-family: "微软雅黑","宋体",Arail,Tabhoma; font-size: 14px; text-align: left;}
+img{border: 0;}
+ol,ul{list-style: none;}
+input,select,textarea{outline:0;}
+textarea{resize:none; overflow: auto;}
+table{border-collapse: collapse; border-spacing: 0;}
+th,strong,var,em{font-weight: normal; font-style: normal;}
+a{text-decoration: none;}
+/***************************************自行添加****************************************/
+.all{
+	width: 100%;
+	min-width: 1100px;
+	background: #fff;
+}
+.all .top{
+	width: 1100px;
+	margin: 0 auto;
+}
+.all .top .first{
+	line-height: 70px;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.all .top .first a{
+	float: left;
+	width: 190px;
+	height: 60px;
+	border-right: 1px solid #F0E0D0;
+}
+.all .top .first .span1{
+	float: left;
+	margin-left: 15px;
+}
+.all .top .first .span2{
+	float: right;
+}
+.all .top .first .span3{
+	float: right;
+	margin-right: 20px;
+}
+.all .top .first .span4{
+	float: right;
+	margin-right: 20px;
+}
+.all .title{
+	width: 100%;
+	min-width: 1100px;
+	background: #FFB400;
+}
+.all .title .second{
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.all .title .second .span1{
+	line-height: 45px;
+	letter-spacing: 5px;
+	float: left;
+}
+.all .title .second .span2{
+	float: left;
+	width: 97px;
+	line-height: 28px;
+	text-align: center;
+	background: #fff;
+	border-radius: 15px;
+	margin: 8px 17px;
+}
+.all .title .second .span2 a{
+	font-size: 15px;
+	color: #FFA200;
+}
+.all .title .second .span3{
+	float: left;
+	line-height: 45px;
+}
+.all .title .second .span1 a,.all .title .second .span3 a{
+	color: #fff;
+	font-size: 15px;
+}
+.all .title .second .span4{
+	float: right;
+	font-size: 13px;
+	line-height: 45px;
+	color: #fff;
+	font-style: italic;
+	margin-right: 2px;
+}
+.all .title .second .img1{
+	float: right;
+	margin-top: 2px;
+}
+.all .title .second .span5{
+	float: right;
+	line-height: 45px;
+	margin-right: 23px;
+	color: #fff;
+	font-style: italic;
+	font-size: 18px;
+}
+.all .title .second .img2{
+	float: right;
+	margin-top: 8px;
+}
+.all .title .second .span6{
+	float: right;
+	line-height: 45px;
+	color: #fff;
+	font-size:15px; 
+	margin-right: 10px;
+}
+.all .img img{
+	width: 100%;
+	display: block;
+}
+/******************************内容*****************************/
+.all .con{
+	width: 1100px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+}
+.all .con .left{
+	float: left;
+	width: 200px;
+	height: 1545px;
+	background: #EFEFEF;
+	overflow: hidden;	
+}
+.all .con .left .one{
+	width: 200px;
+	height: 18px;
+}
+.all .con .left .two{
+	width: 200px;
+	line-height: 60px;
+	border-top: 1px solid #fff;
+	text-align: center;
+}
+.all .con .left .two a{
+	font-size: 18px;
+	color: #7B7B7B;
+}
+.all .con .left .three{
+	float: right;
+	width: 183px;
+	height: 50px;
+	font-size: 18px;
+	line-height: 50px;
+	text-align: center;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #ccc;
+}
+.all .con .left .three a{
+	color: #DA590D;
+}
+.all .con .left .four{
+	width: 200px;
+	line-height: 60px;
+	text-align: center;
+}
+.all .con .left .four a{
+	font-size: 18px;
+	color: #7B7B7B;
+}
+.all .con .right{
+	width: 850px;
+	float: right;
+}
+.all .con .right .one{
+	width: 850px;
+	height: 80px;
+	border-bottom: 1px solid #E8D1B8;
+}
+.all .con .right .one h2{
+	width: 250px;
+	line-height: 30px;
+	border-bottom: 3px solid #E8D1B8;
+	margin: 0 auto;
+	text-align: center;
+	color: #CE9E6A;
+	padding-top: 49px;
+}
+.all .con .right .two{
+	width: 850px;
+	text-align: center;
+	font-size: 10px;
+	color: #CCAB8A;
+	margin-top: 8px;
+}
+.all .con .right .three{
+	border-bottom: 1px dashed #D5D5D5;
+	overflow: hidden;
+	padding-bottom: 21px;
+}
+.all .con .right .three img{
+	float: left;
+	margin-top: 150px;
+}
+.all .con .right .three .text{
+	float: left;
+	margin-left: 21px;
+	margin-top: 45px;
+}
+.all .con .right .three .text h3{
+	color: #FF680F;
+}
+.all .con .right .three .text h4,.all .con .right .three .text2 h4,.all .con .right .three .text3 h4{
+	color: #FF680F;
+	margin-top: 20px;
+}
+.all .con .right .three .text ol,.all .con .right .three .text2 ol,.all .con .right .three .text3 ol{
+	color: #878787;
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.all .con .right .three .text2{
+	float: left;
+	margin-left: 21px;
+}
+.all .con .right .three .text3{
+	float: left;
+	margin-top: -25px;
+	margin-left: 154px;
+}
+.all .con .right .four{
+	border-bottom: 1px dashed #D5D5D5;
+	overflow: hidden;
+	padding-bottom: 17px;
+}
+.all .con .right .four img{
+	float: left;
+	margin-top: 17px;
+}
+.all .con .right .four .text{
+	width: 700px;
+	float: left;
+	margin-left: 16px;
+}
+.all .con .right .four .text h3{
+	color: #FF680F;
+	margin-top: 50px;
+}
+.all .con .right .four .text ol{
+	color: #878787;
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.all .con .right .five{
+	border-bottom: 1px dashed #D5D5D5;
+	overflow: hidden;
+	padding-bottom: 17px;
+}
+.all .con .right .five img{
+	float: left;
+	margin-top: 30px;
+}
+.all .con .right .five .text{
+	margin-left: 152px;
+	margin-top: 22px;
+}
+.all .con .right .five .text h3{
+	color: #FF680F;
+}
+.all .con .right .five .text h4,.all .con .right .five .text2 h4{
+	color: #FF680F;
+	margin-top: 20px;
+}
+.all .con .right .five .text ol,.all .con .right .five .text2 ol{
+	color: #878787;
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.all .con .right .five .text2{
+	float: left;
+	margin-left: 21px;
+}
+.all .con .right .six{
+	border-bottom: 1px dashed #D5D5D5;
+	overflow: hidden;
+	padding-bottom: 17px;
+}
+.all .con .right .six img{
+	float: left;
+	margin-top: 17px;
+}
+.all .con .right .six .text{
+	width: 700px;
+	float: left;
+	margin-left: 16px;
+}
+.all .con .right .six .text h3{
+	color: #FF680F;
+	margin-top: 22px;
+}
+.all .con .right .six .text ol{
+	color: #878787;
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.all .con .right .six .text .li{
+	margin-top: 20px;
+}
+.all .con .right .six .text .li span{
+	color: #FF680F;
+	font-weight: bold;
+}
+.all .con .right .seven{
+	width: 850px;
+	padding-bottom: 118px;
+}
+.all .con .right .seven p{
+	font-size: 16px;
+	color: #FF8842;
+	margin-top: 38px;
+}
+/*<!--********************* 底部 *************************-->*/
+.all .footer{
+	width: 100%;
+	background: url(../images/tu.jpg)0 0 repeat-x;
+}
+.all .footer .one{
+	width: 1102px;
+	margin: 0 auto;
+	position: relative;
+}
+.all .footer .first{
+	width: 100%;
+	min-width: 1100px;
+	background: #FF8A00;
+}
+.all .footer .first .con{
+	width: 1100px;
+	padding-top: 28px;
+	padding-bottom: 9px;
+	margin: 0 auto;
+	background: #FF8A00;
+	overflow: hidden;
+}
+.all .footer .first .con .logo{
+	float: left;
+}
+.all .footer .first .con .phone{
+	float: left;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.all .footer .first .con .p{
+	float: left;
+	color: #fff;
+	font-style: italic;
+	margin-top: 7px;
+	margin-left: 7px;
+}
+.all .footer .first .con .p .p1{
+	font-size: 14px;
+}
+.all .footer .first .con .p .p2{
+	font-size: 25px;
+}
+.all .footer .first .con .text{
+	float: right;
+	color: #fff;
+	margin-right: 160px;
+}
+.all .footer .first .con .text .p1{
+	font-size: 30px;
+}
+.all .footer .first .con .text .p2{
+	font-size: 13px;
+}
+.all .footer .second{
+	width: 100%;
+	min-width: 1100px;
+	background: #FDB911;
+}
+.all .footer .second .con{
+	width: 1100px;
+	margin: 0 auto;
+	line-height: 47px;
+	background: #FDB911;
+	overflow: hidden;
+	font-size: 12px;
+}
+.all .footer .second .con .span1{
+	line-height: 12px;
+	padding-right: 11px;
+}
+.all .footer .second .con .span2,.all .footer .second .con .span3,.all .footer .second .con .span4{
+	line-height: 12px;
+	padding: 0px 11px;
+	border-left: 1px solid #61401C;
+}
+.all .footer .second .con a{
+	color: #61401C;
+}
+.all .footer .second .con .span5{
+	float: right;
+	font-size: 12px;
+	margin-right: 160px;
+	color: #61401C;
+}
+.all .footer .second .con .span6{
+	float: right;
+	font-size: 12px;
+	margin-right: 15px;
+	color: #61401C;
+}
+.all .footer .third{
+	position: absolute;
+	right: 0px;
+	bottom: 8px;
+}
